@@ -1,5 +1,6 @@
 body {
-  background: gold;  
+  background: blue;
+  color: white;
 }
 
 ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
@@ -8,12 +9,9 @@ body {
   <head>
   </head>
   <body>
-    Kathy is a <span id="pif">pifafu</span>
+    Kathy is a pifafu
   </body>
 </html>
 
 ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 
-document.getElementById("pif").onclick= function(event) {
-  event.target.innerHTML = "pikachu";
-}
