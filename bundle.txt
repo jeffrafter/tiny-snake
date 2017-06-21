@@ -8,9 +8,12 @@ body {
   <head>
   </head>
   <body>
-    Kathy is a pifafu
+    Kathy is a <span id="pif">pifafu</span>
   </body>
 </html>
 
 ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 
+document.getElementById("pif").onclick= function(event) {
+  event.target.innerHTML = "pikachu";
+}
